@@ -1,4 +1,4 @@
-
+/* normalize */
 *{
     margin: 0;
     padding: 0;
@@ -13,12 +13,24 @@ a{
     text-decoration: none;
 }
 
+button{
+    border: 0;
+    padding: 0;
+    background: 0;
+}
+
+/* general */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 
 /* header{} */
 
 .header .container{
-    width: 1200px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,3 +56,81 @@ a{
 header .container .menu li:hover{
     color: #fa4a0c;
 }
+
+/* hero */
+.hero{
+  /* background-image: url('images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+   */
+
+   background : url('images/hero-bg.png') no-repeat center /cover;
+   padding: 75px 0 145px;
+}
+/* .hero .container {} */
+
+.hero .container .uptitle{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #f6f6f6f6;
+    text-align: center;
+}
+
+.hero .container .title{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-align: center;
+    margin: 17px 0;
+}
+
+.hero .container .subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #f6f6f6f6;
+    text-align: center;
+}
+
+.hero .container .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 55px;
+}
+
+.hero .container .btns .btn{
+    font-style: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    padding: 16px 58px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hero .container .btns .btn:hover{
+    background: #fa4a0c;
+    border-color: transparent;
+}
+
+/* .hero .container .btns .btn:first-child{
+    background: #fa4a0c;
+}
+
+.hero .container .btns .btn:last-child{
+    border: 1px solid #ffffff;
+} */
