@@ -1,28 +1,60 @@
 /* normalize */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-button{
+button {
     border: 0;
     padding: 0;
     background: 0;
 }
 
 /* general */
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.text {
+    width: 586px;
+}
+
+.text .uptitle {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #fa4a0c;
+}
+
+.text .text-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 17px 0;
+}
+
+.text .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #737373;
 }
 
 
@@ -30,60 +62,61 @@ button{
 
 /* header{} */
 
-.header .container{
+.header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header .container .menu{
+.header .container .menu {
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header .container .menu li{
+.header .container .menu li {
     font-size: 16px;
     font-weight: 600;
-    font-family: 'montserrat',sans-serif;
+    font-family: 'montserrat', sans-serif;
     letter-spacing: 0.2px;
     line-height: 28px;
     color: #252B42;
     cursor: pointer;
 }
 
-header .container .menu li:hover{
+header .container .menu li:hover {
     color: #fa4a0c;
 }
 
 /* hero */
-.hero{
-  /* background-image: url('images/hero-bg.png');
+.hero {
+    /* background-image: url('images/hero-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
    */
 
-   background : url('images/hero-bg.png') no-repeat center /cover;
-   padding: 75px 0 145px;
+    background: url('images/hero-bg.png') no-repeat center /cover;
+    padding: 75px 0 145px;
 }
+
 /* .hero .container {} */
 
-.hero .container .uptitle{
+.hero .container .uptitle {
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     letter-spacing: 0.1px;
     color: #f6f6f6f6;
     text-align: center;
 }
 
-.hero .container .title{
+.hero .container .title {
     font-size: 58px;
     font-weight: 700;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 80px;
     letter-spacing: 0.2px;
     color: #ffffff;
@@ -91,17 +124,17 @@ header .container .menu li:hover{
     margin: 17px 0;
 }
 
-.hero .container .subtitle{
+.hero .container .subtitle {
     font-size: 24px;
     font-weight: 500;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #f6f6f6f6;
     text-align: center;
 }
 
-.hero .container .btns{
+.hero .container .btns {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,10 +142,10 @@ header .container .menu li:hover{
     margin-top: 55px;
 }
 
-.hero .container .btns .btn{
+.hero .container .btns .btn {
     font-style: 24px;
     font-weight: 700;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     letter-spacing: 0.1px;
     color: #ffffff;
@@ -122,7 +155,8 @@ header .container .menu li:hover{
     cursor: pointer;
     transition: 0.3s;
 }
-.hero .container .btns .btn:hover{
+
+.hero .container .btns .btn:hover {
     background: #fa4a0c;
     border-color: transparent;
 }
@@ -134,3 +168,60 @@ header .container .menu li:hover{
 .hero .container .btns .btn:last-child{
     border: 1px solid #ffffff;
 } */
+
+
+
+/* image */
+.image {}
+
+
+.image .container {
+    text-align: center;
+}
+
+
+.image .container img {
+    position: relative;
+    top: -100px;
+}
+
+.image .container .line {
+    width: 884px;
+    height: 5px;
+    background: #e4e4e4;
+    margin: 0 auto;
+    background: red;
+}
+
+/* app */
+.app {
+    padding: 70px 0;
+}
+
+.app .container .title {
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.app .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+/* food */
+.food {
+    padding: 50px 0;
+}
+
+.food .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
