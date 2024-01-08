@@ -225,3 +225,70 @@ header .container .menu li:hover {
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* checkout */
+
+.checkout {
+    padding: 50px 0;
+}
+
+.checkout .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* prefooter */
+.prefooter {
+    background: url(images/prefooter-bg.png) no-repeat center /cover;
+    padding: 140px 0 130px;
+}
+
+.prefooter .container {
+    text-align: center;
+}
+
+.prefooter .container .title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+
+.prefooter .container .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin: 15px 0 60px;
+}
+
+.prefooter .container .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.prefooter .container .btns .btn {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 16px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.prefooter .container .btns .btn:hover {
+    background: #fa4a0c;
+    border-color: #fa4a0c;
+}
