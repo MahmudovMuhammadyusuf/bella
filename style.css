@@ -156,7 +156,7 @@ header .container .menu li:hover {
     transition: 0.3s;
 }
 
-.hero .container .btns .btn:hover {
+.btn:hover {
     background: #fa4a0c;
     border-color: transparent;
 }
@@ -288,7 +288,31 @@ header .container .menu li:hover {
     transition: 0.3s;
 }
 
-.prefooter .container .btns .btn:hover {
-    background: #fa4a0c;
-    border-color: #fa4a0c;
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.copy{
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.1px;
 }
